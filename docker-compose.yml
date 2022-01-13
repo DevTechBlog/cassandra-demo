@@ -1,0 +1,12 @@
+version: '3'
+services:
+  n1:
+    container_name: n1
+    ports:
+      - "9042:9042"
+    build: .
+    image: cassandra-cqlshrc
+    networks:
+      - cluster
+networks:
+  cluster:

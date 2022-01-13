@@ -1,0 +1,7 @@
+[connection]
+
+;; Es el timeout en seconds para abrir nuevas conexiones
+timeout = 60
+
+;; Es el timeout en segundos para ejecutar queries
+request_timeout = 60
